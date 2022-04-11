@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<header class="chapter-header">{{ site.name }}</header>
+
+<nav class="chapter headnav">
+    {% include chapternav.html %}
+</nav>
+
+<article>
+    {{ content }}
+</article>
+
+<nav class="chapter footnav">
+    {% include chapternav.html %}
+</nav>
+
+{% include footer.html %}

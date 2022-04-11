@@ -1,0 +1,15 @@
+:root {
+    --mcd-main-background: #f8f0ec;
+    --mcd-main-text: #605b4c;
+    --mcd-main-accent: #9b8220;
+    --mcd-accent-background: #e6cc50;
+    --mcd-accent-text: #605b4c;
+    --mcd-sitetitle-background: #684c10;
+    --mcd-sitetitle-text: #f0e8b0;
+
+    --mcd-main-font: "Exo 2", Verdana, Helvetica, Arial;
+    --mcd-zh-font: "思源黑体", "微软雅黑", "宋体";
+    --mcd-main-font-latin: var(--mcd-main-font), sans-serif;
+    --mcd-main-font-zh: var(--mcd-main-font), var(--mcd-main-font-zh),
+        sans-serif;
+}
