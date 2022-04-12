@@ -48,9 +48,9 @@ footer {
 }
 
 nav.chapter {
-    background-color: var(--mcd-accent-background);
-    color: var(--mcd-accent-text);
-    --accent: var(--mcd-main-accent);
+    background-color: var(--mcd-comp-background);
+    color: var(--mcd-comp-text);
+    --accent: var(--mcd-comp-accent);
 
     margin: auto;
     border-radius: 8pt;
