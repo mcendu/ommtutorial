@@ -1,5 +1,6 @@
 ---
 layout: toc
+language: en
 ---
 
 # McEndu's VSRG level creation tutorial
