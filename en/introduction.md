@@ -2,9 +2,9 @@
 layout: chapter
 title: What is VSRG level creation?
 language: en
-prev: index
+prev: index.html
 prev-title: Contents
-next: analysis
+next: analysis.html
 next-title: Analyzing a piece of music
 ---
 
@@ -38,9 +38,10 @@ better the player would score.
 
 But how is a level made? In a rhythm game, a piece of music accompanies
 every level. And here comes the characteristic of a rhythm game: In a
-good level, every note is related to the accompanying music. Often, a
+good level, *every* note is related to the accompanying music. Often, a
 perfect judgement on a note happens exactly at the playing of a sound
-in the music. Random notes unrelated to the music is no fun to play.
+in the music. Random notes unrelated to the music is *just no fun* to
+play.
 
 Confused? In the next chapter, you would know what a sound in a music
 is.
