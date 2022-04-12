@@ -4,11 +4,16 @@
 
 body {
     background-color: var(--mcd-background);
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 header, footer {
     color: var(--mcd-background-text);
     margin: 4pt auto;
+    text-align: center;
 }
 
 .sitename {
@@ -52,10 +57,11 @@ nav.chapter {
 }
 
 article {
+    display: block;
     width: 8in;
     background-color: var(--mcd-main-background);
     border-radius: 12pt;
-    margin: 8pt auto;
+    margin: 20pt auto;
     padding: 20pt 20pt;
     filter: drop-shadow(0pt 3pt 6pt #00000080);
 }
