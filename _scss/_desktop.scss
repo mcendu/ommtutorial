@@ -10,9 +10,15 @@ body {
     align-content: center;
 }
 
-header, footer {
+header {
     color: var(--mcd-background-text);
     margin: 4pt auto;
+    text-align: center;
+}
+
+footer {
+    color: var(--mcd-background-text);
+    margin: 24pt auto 0;
     text-align: center;
 }
 
@@ -26,7 +32,7 @@ header, footer {
 .sitecover {
     font-size: 36pt;
     font-weight: 300;
-    margin: 32pt auto;
+    margin: 1in auto;
     padding: 0;
 }
 
@@ -39,20 +45,12 @@ nav.chapter {
 
     display: flex;
     flex-direction: row;
-    gap: 4pt;
+    gap: 8pt;
 
     & > li {
         display: block;
         margin: 0;
         padding: 0 1ex;
-
-        &::before {
-            content: '|';
-        }
-
-        &:first-child::before {
-            display: none;
-        }
     }
 }
 

@@ -10,10 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: 300;
-    font-size: 24pt;
-    border-bottom: 1px var(--mcd-main-decoration);
+    font-size: 32pt;
+    border-bottom: 2px solid var(--mcd-main-decoration);
     padding: 6pt 0pt;
-    margin: 0pt 0pt 0pt;
+    margin: 0pt 0pt 4pt;
 }
 
 h2, h3 {
