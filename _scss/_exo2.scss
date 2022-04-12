@@ -1,14 +1,22 @@
+/*
+ * Exo 2 designed by [Natanael Gama](https://www.ndiscover.com)
+ *
+ * Copyright 2013 The Exo 2 Project Authors
+ * (https://github.com/NDISCOVER/Exo-2.0)
+ *
+ * This Font Software is licensed under the SIL Open Font License,
+ * Version 1.1. This license is available at /fonts/OFL.txt, and
+ * is also available with a FAQ at: http://scripts.sil.org/OFL
+ */
+
 @font-face {
     font-family: 'Exo 2';
     src: url('/fonts/Exo2-Regular.woff2') format('woff2');
-    font-style: normal;
-    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Exo 2';
     src: url('/fonts/Exo2-Bold.woff2') format('woff2');
-    font-style: normal;
     font-weight: bold;
 }
 
@@ -16,12 +24,26 @@
     font-family: 'Exo 2';
     src: url('/fonts/Exo2-Italic.woff2') format('woff2');
     font-style: italic;
-    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Exo 2';
     src: url('/fonts/Exo2-BoldItalic.woff2') format('woff2');
     font-style: italic;
-    font-weight: normal;
+    font-weight: bold;
+}
+
+/* variable fonts */
+@supports (font-variation-settings: 'wght' 450) {
+    @font-face {
+        font-family: 'Exo 2 Variable';
+        src: url('/fonts/Exo2-VariableFont_wght.woff2');
+        font-weight: 100 900;
+    }
+
+    @font-face {
+        font-family: 'Exo 2 Variable';
+        src: url('/fonts/Exo2-Italic-VariableFont_wght.woff2');
+        font-weight: 100 900;
+    }
 }
