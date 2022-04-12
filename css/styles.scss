@@ -1,10 +1,12 @@
 @import "variables";
+@import "exo2";
 
+@import "typography";
 
-@media screen and (min-width: 3in) {
+@media screen and (min-width: 6in) {
     @import "desktop";
 }
 
-@media screen and (max-width: 3in) {
+@media screen and (max-width: 6in) {
     @import "mobile";
 }
