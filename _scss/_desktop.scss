@@ -14,6 +14,7 @@ body {
 
 a {
     color: var(--accent);
+    text-decoration: none;
 
     &:hover {
         text-decoration: underline 1px var(--accent);
@@ -30,11 +31,6 @@ footer {
     color: var(--mcd-background-text);
     margin: 24pt auto 0;
     text-align: center;
-}
-
-article {
-    color: var(--mcd-main-text);
-    --accent: var(--mcd-main-accent);
 }
 
 .sitename {
@@ -75,8 +71,10 @@ article {
     display: block;
     width: 8in;
     background-color: var(--mcd-main-background);
+    color: var(--mcd-main-text);
+    --accent: var(--mcd-main-accent);
     border-radius: 12pt;
     margin: 20pt auto;
     padding: 20pt 20pt;
-    filter: drop-shadow(0pt 3pt 6pt #00000080);
+    filter: drop-shadow(0pt 3pt 6pt #00000040);
 }
