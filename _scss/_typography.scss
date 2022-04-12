@@ -51,7 +51,7 @@ p {
     text-align: justify;
     hyphens: none;
 
-    &:lang("*-Latn") {
+    &:lang("en") {
         hyphens: auto;
     }
 }
