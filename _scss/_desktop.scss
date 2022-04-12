@@ -4,10 +4,20 @@
 
 body {
     background-color: var(--mcd-background);
+    color: var(--mcd-background-text);
+    --accent: var(--mcd-background-accent);
 
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+
+a {
+    color: var(--accent);
+
+    &:hover {
+        text-decoration: underline 1px var(--accent);
+    }
 }
 
 header {
@@ -20,6 +30,11 @@ footer {
     color: var(--mcd-background-text);
     margin: 24pt auto 0;
     text-align: center;
+}
+
+article {
+    color: var(--mcd-main-text);
+    --accent: var(--mcd-main-accent);
 }
 
 .sitename {
@@ -39,6 +54,8 @@ footer {
 nav.chapter {
     background-color: var(--mcd-accent-background);
     color: var(--mcd-accent-text);
+    --accent: var(--mcd-main-accent);
+
     margin: auto;
     border-radius: 8pt;
     padding: 4pt 8pt;

@@ -1,11 +1,10 @@
 body {
     font-family: var(--mcd-main-font);
     font-size: 12pt;
-    color: var(--mcd-main-text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--mcd-main-accent);
+    color: var(--accent);
 }
 
 h1 {
@@ -53,16 +52,8 @@ p {
 
     &:lang("en") {
         hyphens: auto;
+        -webkit-hyphens: auto;
     }
-}
-
-a {
-    color: var(--mcd-main-accent);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline 1px var(--mcd-main-accent);
 }
 
 b, strong {
