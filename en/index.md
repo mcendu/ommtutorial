@@ -3,8 +3,6 @@ layout: toc
 language: en
 ---
 
-# McEndu's VSRG level creation tutorial
-
 You played a lot of VSRG levels. You feel satisfied every time you play
 a level, and you are tempted to create levels of your own. Or you are
 impressed by the plays of good players, and want to make something to
