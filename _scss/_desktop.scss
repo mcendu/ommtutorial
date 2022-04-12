@@ -8,6 +8,7 @@ body {
 
 header, footer {
     color: var(--mcd-background-text);
+    margin: 4pt auto;
 }
 
 .sitename {
@@ -32,15 +33,29 @@ nav.chapter {
     padding: 4pt 8pt;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 4pt;
+
+    & > li {
+        display: block;
+        margin: 0;
+        padding: 0 1ex;
+
+        &::before {
+            content: '|';
+        }
+
+        &:first-child::before {
+            display: none;
+        }
+    }
 }
 
 article {
     width: 8in;
     background-color: var(--mcd-main-background);
     border-radius: 12pt;
-    margin: 0 auto;
+    margin: 8pt auto;
     padding: 20pt 20pt;
     filter: drop-shadow(0pt 3pt 6pt #00000080);
 }
