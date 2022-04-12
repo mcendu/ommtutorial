@@ -47,6 +47,15 @@ h6 {
     font-weight: bold;
 }
 
+p {
+    text-align: justify;
+    hyphens: none;
+
+    &:lang("*-Latn") {
+        hyphens: auto;
+    }
+}
+
 a {
     color: var(--mcd-main-accent);
     text-decoration: none;
