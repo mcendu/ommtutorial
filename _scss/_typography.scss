@@ -1,0 +1,65 @@
+body {
+    font-family: var(--mcd-main-font-latin);
+    font-size: 12pt;
+    color: var(--mcd-main-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--mcd-main-accent);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 24pt;
+    border-bottom: 1px var(--mcd-main-decoration);
+    padding: 6pt 0pt;
+    margin: 0pt 0pt 0pt;
+}
+
+h2, h3 {
+    font-size: 20pt;
+    margin: 12pt 0pt 0pt;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+p, h4, h5, h6 {
+    font-weight: normal;
+    margin: 6pt 0pt 0pt;
+}
+
+h4 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 16pt;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+a {
+    color: var(--mcd-main-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline 1px var(--mcd-main-accent);
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
