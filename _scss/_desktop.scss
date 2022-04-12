@@ -1,0 +1,46 @@
+/*
+ * Page styles on desktop.
+ */
+
+body {
+    background-color: var(--mcd-background);
+}
+
+header, footer {
+    color: var(--mcd-background-text);
+}
+
+.sitename {
+    font-size: 24pt;
+    font-weight: 300;
+    margin: 20pt auto;
+    padding: 0;
+}
+
+.sitecover {
+    font-size: 36pt;
+    font-weight: 300;
+    margin: 32pt auto;
+    padding: 0;
+}
+
+nav.chapter {
+    background-color: var(--mcd-accent-background);
+    color: var(--mcd-accent-text);
+    margin: auto;
+    border-radius: 8pt;
+    padding: 4pt 8pt;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4pt;
+}
+
+article {
+    width: 8in;
+    background-color: var(--mcd-main-background);
+    border-radius: 12pt;
+    margin: 0 auto;
+    padding: 20pt 20pt;
+    filter: drop-shadow(0pt 3pt 6pt #00000080);
+}
