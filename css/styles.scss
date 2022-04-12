@@ -1,1 +1,10 @@
-@import "variables.scss"
+@import "variables";
+
+
+@media screen and (min-width: 3in) {
+    @import "desktop";
+}
+
+@media screen and (max-width: 3in) {
+    @import "mobile";
+}
