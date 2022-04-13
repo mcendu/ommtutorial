@@ -1,0 +1,79 @@
+/*
+ * Page styles on mobile.
+ */
+
+body {
+    background-color: var(--mcd-background);
+    color: var(--mcd-background-text);
+    --accent: var(--mcd-background-accent);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline 1px var(--accent);
+    }
+}
+
+header {
+    margin: 4pt 12pt;
+    text-align: center;
+}
+
+footer {
+    margin: 12pt 12pt;
+}
+
+.sitename {
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 12pt auto;
+    padding: 0;
+}
+
+.sitecover {
+    height: 100vh;
+    font-size: 24pt;
+    font-weight: 300;
+    margin: 0 12pt;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.chapter {
+    background-color: var(--mcd-comp-background);
+    color: var(--mcd-comp-text);
+    --accent: var(--mcd-comp-accent);
+
+    box-sizing: border-box;
+    width: 100%;
+
+    padding: 4pt 12pt;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8pt;
+
+    &.headnav > .next-link {
+        display: none;
+    }
+
+    &.footnav > .prev-link {
+        display: none;
+    }
+}
+
+article {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--mcd-main-background);
+    color: var(--mcd-main-text);
+    --accent: var(--mcd-main-accent);
+    margin: 0;
+    padding: 36pt 12pt;
+}

@@ -22,18 +22,12 @@ a {
 }
 
 header {
-    color: var(--mcd-background-text);
     margin: 4pt auto;
     text-align: center;
 }
 
 footer {
-    color: var(--mcd-background-text);
     margin: 24pt auto;
-
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }
 
 .sitename {
