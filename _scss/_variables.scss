@@ -1,14 +1,14 @@
 :root {
-    --mcd-background: #3a0097;
-    --mcd-background-text: #f5effa;
-    --mcd-background-accent: #e3b2ff;
-    --mcd-main-background: #faf7fd;
-    --mcd-main-text: #242221;
-    --mcd-main-accent: #6933c1;
-    --mcd-main-decoration: #c1a8d8;
-    --mcd-comp-background: #ebe2ff;
-    --mcd-comp-text: #242221;
-    --mcd-comp-accent: #6933c1;
+    --mcd-background: hsl(270, 100%, 30%);
+    --mcd-background-text: hsl(270, 60%, 100%);
+    --mcd-background-accent: hsl(280, 100%, 85%);
+    --mcd-main-background: hsl(280, 80%, 100%);
+    --mcd-main-text: hsl(270, 10%, 15%);
+    --mcd-main-accent: hsl(260, 60%, 50%);
+    --mcd-main-decoration: hsl(270, 40%, 75%);
+    --mcd-comp-background: hsl(280, 80%, 90%);
+    --mcd-comp-text: hsl(270, 10%, 15%);
+    --mcd-comp-accent: hsl(260, 60%, 50%);
 
     --mcd-latin-font: "Exo 2 Variable", "Exo 2", Verdana, Helvetica, Arial;
     --mcd-zh-font: "思源黑体", "微软雅黑", "宋体";
