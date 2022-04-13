@@ -17,9 +17,9 @@ to know how it feels, we need to analyze it.
 
 ## How a music is played
 
-A music is played by the production of new sound. Whenever you hit a
-drum, pluck a guitar, or press a key on a piano, they would produce a
-new sound. A piece of music is composed of multiple such sounds.
+Music is made by the production of new sounds. Whenever you hit a drum,
+pluck a guitar, or press a key on a piano, they would produce a new
+sound. A piece of music is composed of multiple such sounds.
 
 To make a rhythm game level a true rhythm game level, rather than just
 random button mashing, knowing this is essential. Basically, when the
