@@ -2,7 +2,9 @@
 <html lang="{{ page.language }}">
     <head>
         <meta charset="utf-8"/>
-        <title>{{ page.title }} | {{ site.name }}</title>
+        <title>
+            {% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}
+        </title>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css"/>
     </head>
     <body>
