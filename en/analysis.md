@@ -38,7 +38,8 @@ we need a systematic method.
 
 ## Music is produced by instruments
 
-![A classical concert.]({% link /images/Classical_spectacular10.jpg %})
+![A classical concert.]({{ '/images/Classical_spectacular10.jpg'
+    | relative_link })
 
 To analyze a piece of music, it is essential to understand that a piece
 of music is produced by one or more instruments.
