@@ -10,10 +10,10 @@
 
 @import "en";
 
-@media screen and (min-width: 6in) {
+@media screen and (min-width: 8in) {
     @import "desktop";
 }
 
-@media screen and (max-width: 6in) {
+@media screen and (max-width: 8in) {
     @import "mobile";
 }
