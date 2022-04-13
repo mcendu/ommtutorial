@@ -56,6 +56,10 @@ h6 {
 /* Paragraphs and blocks */
 p {
     margin: var(--mcd-paragraph-margin);
+
+    &:first-child {
+        margin: 0pt 0pt 0pt;
+    }
 }
 
 .references {
