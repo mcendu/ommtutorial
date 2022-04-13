@@ -15,18 +15,17 @@ level consists of just random actions without respecting the music. To
 respect the music when making a level, we must know how it feels. And
 to know how it feels, we need to analyze it.
 
-## How a music is played
+## How music is played
 
 Music is made by the production of new sounds. Whenever you hit a drum,
 pluck a guitar, or press a key on a piano, they would produce a new
 sound. A piece of music is composed of multiple such sounds.
 
-To make a rhythm game level a true rhythm game level, rather than just
-random button mashing, knowing this is essential. Basically, when the
-player presses a button and gets the perfect judgement, a new sound
-should be produced in the music at the same time. By this, the feeling
-of playing music is replicated, and the player would enjoy playing your
-level.
+In a rhythm game, a player should feel like they are playing the music,
+rather than just mashing random buttons. To replicate the feeling,
+every single note should reach the recepter right when a new sound is
+produced.\[[1]\] Following this principle differentiates a good level
+from a bad one.
 
 But just keeping track of all sounds and correspond all sounds to notes
 is very hard. For many pieces of music, this is even impossible; you are
@@ -67,3 +66,12 @@ rather than just boring button mashing.
 With these nailed down, we still have a question left: How to arrange
 notes? The next chapter, I would talk about general concepts for level
 making.
+
+<div class="references" markdown="1">
+
+1.  <a id="note_1"></a>There are exceptions to this principle. Breaking
+    this principle, however, is an advance topic covered much later.
+
+</div>
+
+[1]: #note_1

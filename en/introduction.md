@@ -46,4 +46,10 @@ play.
 Confused? In the next chapter, you would know what a sound in a music
 is.
 
+<div class="references" markdown="1">
+
+1. [Rhythm game][1]. Wikipedia.
+
+</div>
+
 [1]: https://en.wikipedia.org/wiki/Rhythm_game
