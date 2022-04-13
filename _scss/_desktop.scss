@@ -50,6 +50,16 @@ footer {
     padding: 0;
 }
 
+.prev-link::before {
+    content: var(--text-prev);
+    font-weight: bold;
+}
+
+.next-link::before {
+    content: var(--next);
+    font-weight: bold;
+}
+
 nav.chapter {
     background-color: var(--mcd-comp-background);
     color: var(--mcd-comp-text);
