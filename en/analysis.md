@@ -31,7 +31,7 @@ level.
 But just keeping track of all sounds and correspond all sounds to notes
 is very hard. For many pieces of music, this is even impossible; you are
 limited by the number of buttons in *Muse Dash* and *Guitar Hero*, the
-number of fingers available in *Cytus*, and the number of feet in
+number of fingers available in *Cytus*, or the number of feet in
 *Dance Dance Revolution*. So we have to *ignore* some sounds in a level.
 However, just ignoring sounds at random would still ruin a level, so
 we need a systematic method.
