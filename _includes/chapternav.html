@@ -1,10 +1,15 @@
 {% if page.prev-title %}
 <div class="prev-link">
-    Prev: <a href="{{ page.prev }}">{{ page.prev-title }}</a>
+    {% if page.prev %}<a href="{{ page.prev }}">{% endif %}
+        {{ page.prev-title }}
+    {% if page.prev %}</a>{% endif %}
 </div>
 {% endif %}
+
 {% if page.next-title %}
 <div class="next-link">
-    Next: <a href="{{ page.next }}">{{ page.next-title }}</a>
+    {% if page.next %}<a href="{{ page.next }}">{% endif %}
+        {{ page.next-title }}
+    {% if page.next %}</a>{% endif %}
 </div>
 {% endif %}
