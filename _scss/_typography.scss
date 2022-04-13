@@ -1,3 +1,10 @@
+:root {
+    --mcd-chapter-title-margin: 0pt 0pt 24pt;
+    --mcd-section-title-margin: 18pt 0pt 0pt;
+    --mcd-paragraph-margin: 12pt 0pt 0pt;
+    --mcd-block-margin: 12pt 12pt 0pt;
+}
+
 body {
     font-family: var(--mcd-main-font);
     font-size: 12pt;
@@ -7,47 +14,47 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent);
 }
 
+/* Font properties */
 h1 {
     font-weight: 300;
     font-size: 28pt;
     border-bottom: 2px solid var(--mcd-main-decoration);
     padding: 0pt 0pt 6pt;
-    margin: 0pt 0pt 12pt;
-}
-
-h2, h3 {
-    font-size: 20pt;
-    margin: 12pt 0pt 0pt;
+    margin: var(--mcd-chapter-title-margin);
 }
 
 h2 {
+    font-size: 20pt;
     font-weight: bold;
+    margin: var(--mcd-section-title-margin);
 }
 
 h3 {
+    font-size: 20pt;
     font-weight: 300;
-}
-
-h4, h5, h6 {
-    font-weight: normal;
-    margin: 12pt 0pt 0pt;
+    margin: var(--mcd-section-title-margin);
 }
 
 h4 {
     font-size: 16pt;
     font-weight: bold;
+    margin: var(--mcd-paragraph-margin);
 }
 
 h5 {
     font-size: 16pt;
+    font-weight: normal;
+    margin: var(--mcd-paragraph-margin);
 }
 
 h6 {
+    font-size: 16pt;
     font-weight: bold;
+    margin: var(--mcd-paragraph-margin);
 }
 
 p {
-    margin: 12pt 0pt 0pt;
+    margin: var(--mcd-paragraph-margin);
     text-align: justify;
 
     &:lang(en) {
@@ -59,7 +66,11 @@ p {
 .references {
     display: block;
     font-size: 10pt;
-    margin: 12pt 0pt 0pt;
+    margin: var(--mcd-paragraph-margin);
+}
+
+ol, ul {
+    margin: var(--mcd-block-margin);
 }
 
 b, strong {
