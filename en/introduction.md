@@ -4,7 +4,7 @@ title: What is VSRG level creation?
 language: en
 prev: index.html
 prev-title: Contents
-next: analysis.html
+next: analysis
 next-title: Analyzing a piece of music
 ---
 

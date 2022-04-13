@@ -2,7 +2,7 @@
 layout: chapter
 title: Analyzing a piece of music
 language: en
-prev: introduction.html
+prev: introduction
 prev-title: What is VSRG level creation?
 next-title: General concepts in level making
 ---

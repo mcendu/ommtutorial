@@ -18,8 +18,8 @@ are key-count agnostic, and applies well to other VSRGs, like 4K.
 
 ## Contents
 
-- [What is VSRG level creation?](introduction.md)
-- [Analyzing a piece of music](analysis.md)
+- [What is VSRG level creation?](introduction)
+- [Analyzing a piece of music](analysis)
 - General concepts in level making
 - Patterns in VSRG
 - Catering to play styles
