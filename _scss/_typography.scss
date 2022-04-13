@@ -28,9 +28,9 @@ h3 {
     font-weight: 300;
 }
 
-p, h4, h5, h6 {
+h4, h5, h6 {
     font-weight: normal;
-    margin: 6pt 0pt 0pt;
+    margin: 12pt 0pt 0pt;
 }
 
 h4 {
@@ -47,6 +47,7 @@ h6 {
 }
 
 p {
+    margin: 12pt 0pt 0pt;
     text-align: justify;
 
     &:lang(en) {
