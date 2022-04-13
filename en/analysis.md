@@ -70,7 +70,7 @@ making.
 <div class="references" markdown="1">
 
 1.  <a id="note_1"></a>There are exceptions to this principle. Breaking
-    this principle, however, is an advance topic covered much later.
+    this principle, however, is an advanced topic covered much later.
 
 </div>
 
