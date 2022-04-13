@@ -10,11 +10,11 @@ body {
     font-size: 12pt;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
     color: var(--accent);
 }
 
-/* Font properties */
 h1 {
     font-weight: 300;
     font-size: 28pt;
@@ -53,14 +53,9 @@ h6 {
     margin: var(--mcd-paragraph-margin);
 }
 
+/* Paragraphs and blocks */
 p {
     margin: var(--mcd-paragraph-margin);
-    text-align: justify;
-
-    &:lang(en) {
-        -webkit-hyphens: auto;
-        hyphens: auto;
-    }
 }
 
 .references {
@@ -71,18 +66,30 @@ p {
 
 ol, ul {
     margin: var(--mcd-block-margin);
+    padding-inline-start: 24pt;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* Text alignment */
+p, li {
+    text-align: justify;
+
+    &:lang(en) {
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+/* Text fonts */
 b, strong {
     font-weight: bold;
 }
 
 i, em {
     font-style: italic;
-}
-
-img {
-    max-width: 100%;
 }
 
 .prev-link::before {
