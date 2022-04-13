@@ -49,9 +49,9 @@ h6 {
 p {
     text-align: justify;
 
-    &:lang("en") {
-        hyphens: auto;
+    &:lang(en) {
         -webkit-hyphens: auto;
+        hyphens: auto;
     }
 }
 
@@ -65,4 +65,12 @@ i, em {
 
 img {
     max-width: 100%;
+}
+
+.prev-link::before {
+    font-weight: bold;
+}
+
+.next-link::before {
+    font-weight: bold;
 }
