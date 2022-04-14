@@ -10,7 +10,7 @@ next-title: Analyzing a piece of music
 
 # What is VSRG level creation?
 
-So you might ask, &ldquo;What is VSRG level creation?&rdquo;
+So you might ask, <q>What is VSRG level creation?</q>;
 
 **VSRG** is &ndash; obviously &ndash; an abbreviation. The full name is
 **vertical scrolling rhythm game**. This implies that it is a subgenre
@@ -19,15 +19,15 @@ of rhythm game.
 **Rhythm game** is a genre of music-themed video game that challenges
 a player's sense of rhythm.\[[1]\] In a rhythm game, a player presses
 buttons in a sequence specified on screen, which in turn matches the
-rhythm of a specific track of music being played. The term
-&ldquo;VSRG&rdquo; refers to a specific type of rhythm game, in which
-action indicators, often called **notes**, fall downwards, upwards,
-or toward the player, eventually passing over a **receptor** taking the
-form of a stationary note-like objects or a line. When a note overlaps
-with the receptor, the player must perform a specific action dictated
-by the note. A judgement is then given for the action, or the lack of
-one; The closer the note is to the receptor, a better judgement or a
-higher score is given.
+rhythm of a specific track of music being played. The term <q>VSRG</q>
+refers to a specific type of rhythm game, in which action indicators,
+often called **notes**, fall downwards, upwards, or toward the player,
+eventually passing over a **receptor** taking the form of a stationary
+note-like objects or a line. When a note overlaps with the receptor,
+the player must perform a specific action dictated by the note. A
+judgement is then given for the action, or the lack of one; The closer
+the note is to the receptor, a better judgement or a higher score is
+given.
 
 A **level**, also known as a **beatmap** or a **chart** depending on
 community, consists of multiple notes in a specific sequence. The
@@ -48,7 +48,7 @@ is.
 
 <div class="references" markdown="1">
 
-1. [Rhythm game][1]. Wikipedia.
+1. <q>[Rhythm game][1]</q>. Wikipedia.
 
 </div>
 
