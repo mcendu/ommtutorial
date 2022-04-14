@@ -1,0 +1,146 @@
+---
+---
+
+/*
+ * Exo 2 designed by [Natanael Gama](https://www.ndiscover.com)
+ *
+ * Copyright 2013 The Exo 2 Project Authors
+ * (https://github.com/NDISCOVER/Exo-2.0)
+ *
+ * This Font Software is licensed under the SIL Open Font License,
+ * Version 1.1. This license is available at /fonts/OFL.txt, and
+ * is also available with a FAQ at: http://scripts.sil.org/OFL
+ */
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Thin.woff2') format('woff2');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Black.woff2') format('woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-ThinItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-ExtraLightItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-LightItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-Italic.woff2') format('woff2');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-MediumItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-SemiBoldItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-BoldItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-ExtraBoldItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('{{site.baseurl}}/fonts/Exo2-BlackItalic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* variable fonts */
+@supports (font-variation-settings: 'wght' 450) {
+    @font-face {
+        font-family: 'Exo 2 Variable';
+        src: url('{{site.baseurl}}/fonts/vf/Exo2_wght.woff2')
+            format('woff2');
+        font-weight: 100 900;
+    }
+
+    @font-face {
+        font-family: 'Exo 2 Variable';
+        src: url('{{site.baseurl}}/fonts/vf/Exo2-Italic_wght.woff2')
+            format('woff2');
+        font-weight: 100 900;
+        font-style: italic;
+    }
+}
