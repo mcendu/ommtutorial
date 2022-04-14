@@ -1,0 +1,65 @@
+/*
+ * Print stylesheet.
+ *
+ * Notes: CSS3 margin boxes are used. There is no support for this
+ * feature in major browsers, but I put the rules in anyway. Note
+ * that good customization options for page margin boxes don't exist.
+ */
+
+/* Page setup */
+
+@page {
+    /* chromium only page size defs */
+    size: a4;
+
+    @top-center {
+        font-family: var(--mcd-main-font);
+        font-size: 12pt;
+        content: "McEndu's VSRG level creation tutorial"
+    }
+}
+
+@page :left {
+    margin: 1.5in 1.5in 1.5in 1in;
+
+    @top-left-corner {
+        font-family: var(--mcd-main-font);
+        font-size: 12pt;
+        content: counter(page);
+    }
+}
+
+@page :right {
+    margin: 1.5in 1in 1.5in 1.5in;
+
+    @top-right-corner {
+        font-family: var(--mcd-main-font);
+        font-size: 12pt;
+        content: counter(page);
+    }
+}
+
+/* Optimizations for paper */
+
+body {
+    background-color: white;
+    color: black;
+    --accent: black;
+}
+
+header,
+footer,
+nav {
+    display: none;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+article {
+    margin: 0;
+    /* @page already controls the margin */
+    padding: 0;
+}

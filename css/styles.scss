@@ -15,3 +15,7 @@
 @media screen and (max-width: 8in) {
     @import "mobile";
 }
+
+@media print {
+    @import "print"
+}
