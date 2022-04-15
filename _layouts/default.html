@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>
             {% if page.title %}{{ page.title }}
-            | {% endif %}{{ page.sitename }}
+            | {% endif %}{% include sitename.html %}
         </title>
         <link rel="stylesheet" href="{{site.baseurl}}/css/exo2.css"/>
         <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css"/>

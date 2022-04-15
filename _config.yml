@@ -6,11 +6,6 @@ name: McEndu's VSRG level creation tutorial
 defaults:
   -
     scope:
-      path: ""
-    values:
-      sitename: McEndu's VSRG level creation tutorial
-  -
-    scope:
       path: "zhs"
     values:
       sitename: McEndu 的下落式制谱教程
