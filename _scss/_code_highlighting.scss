@@ -1,0 +1,94 @@
+/* Solarized color scheme */
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$yellow: #b58900;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #6c71c4;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
+
+pre {
+    background-color: $base3;
+    color: $base00;
+
+    .err {
+        color: $red;
+    }
+
+    .k, .kn, .kd, .kr {
+        font-weight: bold;
+    }
+
+    .kp, .kt {
+        color: $green;
+    }
+
+    .kc {
+        color: $orange;
+    }
+
+    .n, .nb, .bp, .nc, .no, .nd, .ne, .nf, .py, .nn, .nx, .nt, .nv, .vc, .vg, .vi
+    {
+        color: $blue;
+    }
+
+    .na, .ni, .nl {
+        color: $orange;
+    }
+
+    .l, .ld, .m, .mf, .mh, .mi, .il, .mo, .mx, .mb {
+        color: $red;
+    }
+
+    .s, .sb, .sc, .s2, .sr, .ss {
+        color: $cyan;
+    }
+
+    .se {
+        color: $red;
+    }
+
+    .si {
+        color: $blue;
+    }
+
+    .c, .cm, .c1 {
+        color: $base01;
+        font-style: italic;
+    }
+
+    .cs {
+        color: $base01;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .cp {
+        color: $orange;
+    }
+
+    .cpf {
+        color: $yellow;
+    }
+
+    .gh, .gu .gs {
+        font-weight: bold;
+    }
+
+    .gr, .gt {
+        color: $red;
+    }
+
+    .go {
+        color: $cyan;
+    }
+}
