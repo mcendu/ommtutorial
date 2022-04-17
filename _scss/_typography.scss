@@ -1,13 +1,10 @@
+@import "mixins";
+
 :root {
     --mcd-chapter-title-margin: 0pt 0pt 24pt;
     --mcd-section-title-margin: 18pt 0pt 0pt;
     --mcd-paragraph-margin: 12pt 0pt 0pt;
     --mcd-block-margin: 12pt 24pt 0pt;
-}
-
-@mixin first-child {
-    --mcd-paragraph-margin: 0pt;
-    --mcd-block-margin: 0pt 24pt;
 }
 
 body {

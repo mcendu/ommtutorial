@@ -1,3 +1,5 @@
+@import "mixins";
+
 .note, .example, .warning {
     display: block;
     margin: var(--mcd-block-margin);
@@ -34,7 +36,7 @@ pre, .result {
     overflow: auto;
 }
 
-.result:first-child {
+.result > :first-child {
     @include first-child();
 }
 
