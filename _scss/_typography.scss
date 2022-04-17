@@ -75,6 +75,10 @@ img {
     max-width: 100%;
 }
 
+code {
+    font-family: var(--mcd-code-font);
+}
+
 /* Text alignment */
 article {
     text-align: justify;

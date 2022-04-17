@@ -1,4 +1,8 @@
-Copyright 2013 The Exo 2 Project Authors (https://github.com/NDISCOVER/Exo-2.0)
+Exo 2 Copyright 2013 The Exo 2 Project Authors
+(https://github.com/NDISCOVER/Exo-2.0)
+
+Cascadia Code Copyright (c) 2019 - Present, Microsoft Corporation,
+with Reserved Font Name Cascadia Code.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

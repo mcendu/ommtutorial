@@ -1,0 +1,119 @@
+---
+---
+
+/*
+ * Cascadia Code by [Microsoft Corporation](https://www.microsoft.com)
+ *
+ * Copyright (c) 2019 - Present, Microsoft Corporation,
+ * with Reserved Font Name Cascadia Code.
+ *
+ * This Font Software is licensed under the SIL Open Font License,
+ * Version 1.1. This license is available at /fonts/OFL.txt, and
+ * is also available with a FAQ at: http://scripts.sil.org/OFL
+ */
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-ExtraLight.woff2')
+        format('woff2');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-Light.woff2')
+        format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-SemiLight.woff2')
+        format('woff2');
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-Regular.woff2')
+        format('woff2');
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-SemiBold.woff2')
+        format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-Bold.woff2')
+        format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-ExtraLightItalic.woff2')
+        format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-LightItalic.woff2')
+        format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-SemiLightItalic.woff2')
+        format('woff2');
+    font-weight: 350;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-Italic.woff2')
+        format('woff2');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-SemiBoldItalic.woff2')
+        format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('{{site.baseurl}}/fonts/CascadiaCode-BoldItalic.woff2')
+        format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* variable fonts */
+@supports (font-variation-settings: 'wght' 450) {
+    @font-face {
+        font-family: 'Cascadia Code Variable';
+        src: url('{{site.baseurl}}/fonts/vf/CascadiaCode_wght.woff2')
+            format('woff2');
+        font-weight: 200 700;
+    }
+
+    @font-face {
+        font-family: 'Cascadia Code Variable';
+        src: url('{{site.baseurl}}/fonts/vf/CascadiaCode-Italic_wght.woff2')
+            format('woff2');
+        font-weight: 200 700;
+        font-style: italic;
+    }
+}
