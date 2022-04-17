@@ -61,6 +61,10 @@ human.
 recommended line length for documentation, by Python standards; here,
 it is extended to all Markdown files.
 
+**Do not hyphenate text.** The website would do it automatically for
+readers, and doing so manually would result in extra hyphens on the
+web page, breaking user experience.
+
 ## Emphasis
 
 **Use asterisks (`*`) to emphasize text.** To make a text italic, use
@@ -196,6 +200,7 @@ Markdown:
 
 int main()
 {
+    /* Hello world program in C */
     printf("Hello, world");
     return 0;
 }
@@ -211,6 +216,7 @@ Result:
 
 int main()
 {
+    /* Hello world program in C */
     printf("Hello, world");
     return 0;
 }
@@ -366,6 +372,63 @@ Result:
 
 <span style="color: white;">Light color on light
 color is universally hated.</span>
+
+</div>
+</div>
+
+Here follows the custom classes defined by this theme.
+
+### Notes
+
+Using the classes `note`, `example` and `warning` creates blocks that
+respectively indicate a note on previous content, an example, and a
+warning.
+
+<div class="example" markdown="1">
+
+Markdown:
+
+```markdown
+<div class="note" markdown="1">
+
+This is a note.
+
+</div>
+
+<div class="example" markdown="1">
+
+This is an example.
+
+</div>
+
+<div class="warning" markdown="1">
+
+Watch out for bugs.
+
+</div>
+```
+
+Result:
+
+<div class="result" markdown="1">
+
+<div class="note" markdown="1">
+
+This is a note.
+
+</div>
+
+<div class="example" markdown="1">
+
+This is an example.
+
+</div>
+
+<div class="warning" markdown="1">
+
+Watch out for bugs.
+
+</div>
 
 </div>
 </div>
