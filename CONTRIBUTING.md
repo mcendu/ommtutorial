@@ -311,13 +311,13 @@ Markdown:
 ```markdown
 <div class="note" markdown="1">
 
-This is a note *with some emphasized text*.
+This is a note with some *emphasized* text.
 
 </div>
 
 <div class="note">
 
-There is no Markdown in this div.
+There is no Markdown in this note.
 
 </div>
 
