@@ -8,7 +8,8 @@
 @import "blocks";
 @import "code_highlighting";
 
-@import "en";
+@import "lang/en";
+@import "lang/zhs";
 
 @media screen and (min-width: 8in) {
     @import "desktop";

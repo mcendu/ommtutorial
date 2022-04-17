@@ -1,0 +1,19 @@
+.prev-link:lang(zh-Hans)::before {
+    content: "上一章：";
+}
+
+.next-link:lang(zh-Hans)::before {
+    content: "下一章：";
+}
+
+.note:lang(zh-Hans)::before {
+    content: "注";
+}
+
+.example:lang(zh-Hans)::before {
+    content: "例";
+}
+
+.warning:lang(zh-Hans)::before {
+    content: "注意";
+}

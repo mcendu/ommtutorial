@@ -6,14 +6,14 @@
     content: "Next: ";
 }
 
-.note::before {
+.note:lang(en)::before {
     content: "NOTE";
 }
 
-.example::before {
+.example:lang(en)::before {
     content: "EXAMPLE";
 }
 
-.warning::before {
+.warning:lang(en)::before {
     content: "WARNING";
 }
