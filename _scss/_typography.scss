@@ -5,6 +5,11 @@
     --mcd-block-margin: 12pt 24pt 0pt;
 }
 
+@mixin first-child {
+    --mcd-paragraph-margin: 0pt;
+    --mcd-block-margin: 0pt 24pt;
+}
+
 body {
     font-family: var(--mcd-main-font);
     font-size: 12pt;
@@ -56,6 +61,10 @@ h6 {
 /* Paragraphs and blocks */
 p {
     margin: var(--mcd-paragraph-margin);
+
+    &:first-child {
+        @include first-child();
+    }
 }
 
 .note, .example, .warning {
@@ -86,6 +95,10 @@ pre, .result {
     background-color: var(--mcd-comp-background);
     color: var(--mcd-comp-text);
     --accent: var(--mcd-comp-accent);
+
+    & > :first-child {
+        @include first-child();
+    }
 }
 
 .references {
