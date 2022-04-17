@@ -78,13 +78,17 @@ img {
 }
 
 /* Text alignment */
-p, li {
+article {
     text-align: justify;
 
     &:lang(en) {
         -webkit-hyphens: auto;
         hyphens: auto;
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: start;
 }
 
 /* Text fonts */
