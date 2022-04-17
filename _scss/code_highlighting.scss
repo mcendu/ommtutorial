@@ -80,8 +80,26 @@ pre.highlight {
         color: $yellow;
     }
 
-    .gh, .gu .gs {
+    .gh, .gu {
         font-weight: bold;
+        color: $blue;
+    }
+
+    .gs {
+        font-weight: bold;
+    }
+
+    .ge {
+        font-style: italic;
+    }
+
+    .gd {
+        text-decoration: line-through;
+        color: $red;
+    }
+
+    .gi {
+        color: $green;
     }
 
     .gr, .gt {
