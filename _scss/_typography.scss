@@ -58,53 +58,12 @@ h6 {
     margin: var(--mcd-paragraph-margin);
 }
 
-/* Paragraphs and blocks */
 p {
     margin: var(--mcd-paragraph-margin);
 
     &:first-child {
         @include first-child();
     }
-}
-
-.note, .example, .warning {
-    display: block;
-    margin: var(--mcd-block-margin);
-
-    &::before {
-        display: inline;
-        background-color: var(--mcd-main-accent);
-        color: var(--mcd-main-background);
-        font-weight: bold;
-        padding: 0 1em 2px 1em;
-        border-radius: 1em;
-    }
-
-    & > p:first-child {
-        margin: 6pt 0pt 0pt;
-    }
-}
-
-pre, .result {
-    margin: var(--mcd-paragraph-margin);
-    padding: 12pt;
-    border-radius: 6pt;
-}
-
-.result {
-    background-color: var(--mcd-comp-background);
-    color: var(--mcd-comp-text);
-    --accent: var(--mcd-comp-accent);
-
-    & > :first-child {
-        @include first-child();
-    }
-}
-
-.references {
-    display: block;
-    font-size: 10pt;
-    margin: var(--mcd-paragraph-margin);
 }
 
 ol, ul {

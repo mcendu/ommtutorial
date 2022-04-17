@@ -1,0 +1,47 @@
+.note, .example, .warning {
+    display: block;
+    margin: var(--mcd-block-margin);
+
+    &::before {
+        display: inline;
+        font-weight: bold;
+        padding: 0 1em 2px 1em;
+        border-radius: 1em;
+    }
+
+    & > p:first-child {
+        margin: 6pt 0pt 0pt;
+    }
+}
+
+.note::before, .example::before {
+    background-color: var(--mcd-main-accent);
+    color: var(--mcd-main-background);
+}
+
+.warning::before {
+    background-color: var(--mcd-warning);
+    color: var(--mcd-main-background);
+}
+
+pre, .result {
+    margin: var(--mcd-paragraph-margin);
+    padding: 12pt;
+    border-radius: 6pt;
+}
+
+.result {
+    background-color: var(--mcd-comp-background);
+    color: var(--mcd-comp-text);
+    --accent: var(--mcd-comp-accent);
+
+    & > :first-child {
+        @include first-child();
+    }
+}
+
+.references {
+    display: block;
+    font-size: 10pt;
+    margin: var(--mcd-paragraph-margin);
+}
