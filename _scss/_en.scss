@@ -1,7 +1,19 @@
 .prev-link:lang(en)::before {
-    content: "Prev: "
+    content: "Prev: ";
 }
 
 .next-link:lang(en)::before {
-    content: "Next: "
+    content: "Next: ";
+}
+
+.note::before {
+    content: "NOTE";
+}
+
+.example::before {
+    content: "EXAMPLE";
+}
+
+.warning::before {
+    content: "WARNING";
 }

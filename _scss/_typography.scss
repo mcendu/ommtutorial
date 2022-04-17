@@ -2,7 +2,7 @@
     --mcd-chapter-title-margin: 0pt 0pt 24pt;
     --mcd-section-title-margin: 18pt 0pt 0pt;
     --mcd-paragraph-margin: 12pt 0pt 0pt;
-    --mcd-block-margin: 12pt 12pt 0pt;
+    --mcd-block-margin: 12pt 24pt 0pt;
 }
 
 body {
@@ -60,6 +60,33 @@ p {
     &:first-child {
         margin: 0pt 0pt 0pt;
     }
+}
+
+.note, .example, .warning {
+    display: block;
+    margin: var(--mcd-block-margin);
+
+    &::before {
+        display: inline;
+        background-color: var(--mcd-main-accent);
+        color: var(--mcd-main-background);
+        font-weight: bold;
+        padding: 0 1em 2px 1em;
+        border-radius: 1em;
+    }
+
+    & > p:first-child {
+        margin: 6pt 0pt 0pt;
+    }
+}
+
+pre, .result {
+    background-color: var(--mcd-comp-background);
+    color: var(--mcd-comp-text);
+    --accent: var(--mcd-comp-accent);
+    margin: var(--mcd-paragraph-margin);
+    padding: 12pt;
+    border-radius: 6pt;
 }
 
 .references {
