@@ -25,19 +25,17 @@
 }
 
 pre, .result {
-    margin: var(--mcd-paragraph-margin);
-    padding: 12pt;
-    border-radius: 6pt;
-}
-
-.result {
     background-color: var(--mcd-comp-background);
     color: var(--mcd-comp-text);
     --accent: var(--mcd-comp-accent);
+    margin: var(--mcd-paragraph-margin);
+    padding: 12pt;
+    border-radius: 6pt;
+    overflow: auto;
+}
 
-    & > :first-child {
-        @include first-child();
-    }
+.result:first-child {
+    @include first-child();
 }
 
 .references {
