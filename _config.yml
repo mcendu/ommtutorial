@@ -9,3 +9,8 @@ defaults:
       path: "zhs"
     values:
       sitename: McEndu 的下落式制谱教程
+  -
+    scope:
+      path: ""
+    values:
+      layout: article
